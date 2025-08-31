@@ -1,6 +1,6 @@
 {
   "experiment_info": {
-    "timestamp": "2025-08-31T22:03:46.733590",
+    "timestamp": "2025-08-31T23:45:45.011216",
     "model_name": "efficientnet_b0",
     "best_epoch": 13,
     "training_config": {
@@ -29,7 +29,7 @@
   },
   "dataset_documentation": {
     "metadata": {
-      "creation_date": "2025-08-31T22:03:46.207512",
+      "creation_date": "2025-08-31T23:45:44.804929",
       "model_name": "efficientnet_b0",
       "image_size": 224,
       "preprocessing": "ImageNet normalization, 3-channel conversion",
@@ -41,9 +41,9 @@
         "MRI": 0,
         "BreastHisto": 1
       },
-      "total_images": 13264,
+      "total_images": 13027,
       "overall_class_distribution": {
-        "MRI": 3264,
+        "MRI": 3027,
         "BreastHisto": 10000
       }
     },
@@ -51,53 +51,53 @@
       "train": {
         "classes": {
           "MRI": {
-            "count": 2284,
+            "count": 2118,
             "path": "c:\\Users\\Ammad\\Documents\\Projects\\Personal\\Brain\\data\\processed\\train\\MRI",
-            "percentage": 24.601464885825074
+            "percentage": 23.228778240842292
           },
           "BreastHisto": {
             "count": 7000,
             "path": "c:\\Users\\Ammad\\Documents\\Projects\\Personal\\Brain\\data\\processed\\train\\BreastHisto",
-            "percentage": 75.39853511417492
+            "percentage": 76.77122175915771
           }
         },
-        "total": 9284,
+        "total": 9118,
         "path": "c:\\Users\\Ammad\\Documents\\Projects\\Personal\\Brain\\data\\processed\\train",
-        "split_percentage": 69.99396863691194
+        "split_percentage": 69.9930912719736
       },
       "val": {
         "classes": {
           "MRI": {
-            "count": 489,
+            "count": 454,
             "path": "c:\\Users\\Ammad\\Documents\\Projects\\Personal\\Brain\\data\\processed\\val\\MRI",
-            "percentage": 24.58521870286576
+            "percentage": 23.23439099283521
           },
           "BreastHisto": {
             "count": 1500,
             "path": "c:\\Users\\Ammad\\Documents\\Projects\\Personal\\Brain\\data\\processed\\val\\BreastHisto",
-            "percentage": 75.41478129713424
+            "percentage": 76.7656090071648
           }
         },
-        "total": 1989,
+        "total": 1954,
         "path": "c:\\Users\\Ammad\\Documents\\Projects\\Personal\\Brain\\data\\processed\\val",
-        "split_percentage": 14.995476477683955
+        "split_percentage": 14.99961618177631
       },
       "test": {
         "classes": {
           "MRI": {
-            "count": 491,
+            "count": 455,
             "path": "c:\\Users\\Ammad\\Documents\\Projects\\Personal\\Brain\\data\\processed\\test\\MRI",
-            "percentage": 24.66097438473129
+            "percentage": 23.273657289002557
           },
           "BreastHisto": {
             "count": 1500,
             "path": "c:\\Users\\Ammad\\Documents\\Projects\\Personal\\Brain\\data\\processed\\test\\BreastHisto",
-            "percentage": 75.33902561526871
+            "percentage": 76.72634271099744
           }
         },
-        "total": 1991,
+        "total": 1955,
         "path": "c:\\Users\\Ammad\\Documents\\Projects\\Personal\\Brain\\data\\processed\\test",
-        "split_percentage": 15.010554885404101
+        "split_percentage": 15.007292546250095
       }
     }
   },
@@ -115,7 +115,7 @@
     "sensitivity": 1.0,
     "confusion_matrix": [
       [
-        491,
+        455,
         0
       ],
       [
@@ -128,7 +128,7 @@
         "precision": 1.0,
         "recall": 1.0,
         "f1": 1.0,
-        "support": 491
+        "support": 455
       },
       "BreastHisto": {
         "precision": 1.0,
@@ -138,20 +138,20 @@
       }
     },
     "raw_counts": {
-      "true_negatives": 491,
+      "true_negatives": 455,
       "false_positives": 0,
       "false_negatives": 0,
       "true_positives": 1500
     },
-    "test_loss": 6.165639492142613e-05,
+    "test_loss": 8.614338542194614e-05,
     "curve_metrics": {
       "roc_auc": 1.0,
       "pr_auc": 1.0
     }
   },
   "error_analysis_summary": {
-    "total_samples": 1991,
-    "correct_predictions": 1991,
+    "total_samples": 1955,
+    "correct_predictions": 1955,
     "false_positives_count": 0,
     "false_negatives_count": 0,
     "top_false_positives": [],

@@ -1,6 +1,6 @@
 {
   "generation_info": {
-    "timestamp": "2025-08-31T18:17:35.252924",
+    "timestamp": "2025-08-31T23:29:40.574864",
     "python_version": "3.12.3",
     "random_seed": 42
   },
@@ -8,7 +8,7 @@
     "mri": {
       "source_path": "c:\\Users\\Ammad\\Documents\\Projects\\Personal\\Brain\\tumor\\tumor",
       "target_path": "c:\\Users\\Ammad\\Documents\\Projects\\Personal\\Brain\\data\\raw\\MRI",
-      "total_files": 3264,
+      "total_files": 3027,
       "note": "Flattened from 4 tumor classes into single MRI class"
     },
     "breast_histopathology": {

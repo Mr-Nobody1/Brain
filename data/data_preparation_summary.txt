@@ -1,12 +1,12 @@
 BRAIN TUMOR PROJECT - DATA PREPARATION SUMMARY
 ==================================================
 
-Generated: 2025-08-31T18:17:35.252924
+Generated: 2025-08-31T23:29:40.574864
 Random Seed: 42
 
 RAW DATA SOURCES:
 --------------------
-MRI Dataset: 3,264 files
+MRI Dataset: 3,027 files
   Source: c:\Users\Ammad\Documents\Projects\Personal\Brain\tumor\tumor
   Note: Flattened from 4 tumor classes into single MRI class
 

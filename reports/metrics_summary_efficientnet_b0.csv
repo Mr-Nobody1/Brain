@@ -10,7 +10,7 @@ ROC-AUC,1.0
 PR-AUC,1.0
 Specificity,1.0
 Sensitivity,1.0
-Test Loss,6.165639492142613e-05
+Test Loss,8.614338542194614e-05
 Target Achieved (95%),Yes
 MRI_precision,1.0
 MRI_recall,1.0

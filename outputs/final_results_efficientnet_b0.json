@@ -27,13 +27,13 @@
     "recall": 1.0,
     "f1": 1.0,
     "auc": 1.0,
-    "loss": 6.165639492142613e-05
+    "loss": 8.614338542194614e-05
   },
   "best_validation_metrics": {
     "val_accuracy": 1.0,
     "val_f1": 1.0,
     "val_auc": 1.0,
-    "best_epoch": 3
+    "best_epoch": 1
   },
-  "timestamp": "2025-08-31T21:08:55.349422"
+  "timestamp": "2025-08-31T23:45:38.116302"
 }
