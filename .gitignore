@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+egg-info/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+venv.bak/
+brain_tumor_env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# VS Code
+.vscode/
+
+# Data, models, outputs, reports
+archive.zip
+archive/
+archive_2/
+data/
+models/
+outputs/
+reports/
+
+# Logs
+*.log
+
+# Configs
+configs/
+
+# Tumor folder
+/tumor/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Other
+*.bak
+*.tmp
