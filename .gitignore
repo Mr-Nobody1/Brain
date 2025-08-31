@@ -49,10 +49,9 @@ brain_tumor_env/
 archive.zip
 archive/
 archive_2/
-data/
 models/
-
-
+data/processed/
+data/raw/
 
 # Logs
 *.log
