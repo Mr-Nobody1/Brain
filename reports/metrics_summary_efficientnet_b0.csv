@@ -1,0 +1,20 @@
+Metric,Value
+Accuracy,1.0
+Precision (Macro),1.0
+Recall (Macro),1.0
+F1-Score (Macro),1.0
+Precision (Weighted),1.0
+Recall (Weighted),1.0
+F1-Score (Weighted),1.0
+ROC-AUC,1.0
+PR-AUC,1.0
+Specificity,1.0
+Sensitivity,1.0
+Test Loss,6.165639492142613e-05
+Target Achieved (95%),Yes
+MRI_precision,1.0
+MRI_recall,1.0
+MRI_f1,1.0
+BreastHisto_precision,1.0
+BreastHisto_recall,1.0
+BreastHisto_f1,1.0

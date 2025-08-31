@@ -51,8 +51,8 @@ archive/
 archive_2/
 data/
 models/
-outputs/
-reports/
+
+
 
 # Logs
 *.log
